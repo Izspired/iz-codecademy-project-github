@@ -30,6 +30,7 @@ p {
 }
 
 a {
+    display: block;
     color: aquamarine;
     font-size: 0.87rem;
     text-align: center;
@@ -39,6 +40,15 @@ a {
 img {
     display: block;
     width: calc(100% - 48px);
-    border: 4px solid #fff;
+    height: auto;
+    margin: 24px auto;
+    border: 8px solid #fff;
     border-radius: 4px;
+}
+
+span img {
+    width: 48px;
+    height: auto;
+    border: 0;
+    border-radius: none;
 }
